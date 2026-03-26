@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Video Page</title>
+
+<style>
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#000000,#1a1a1a);
+    font-family:Arial;
+}
+
+.button{
+    padding:22px 50px;
+    font-size:24px;
+    color:white;
+    background:red;
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+    transition:0.3s;
+    box-shadow:0 0 20px red;
+}
+
+.button:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 40px red;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<button class="button" onclick="goToVideo()">
+▶ Watch the Video
+</button>
+
+<script>
+
+function goToVideo(){
+window.location.href="https://youtu.be/fqi8ssr813c?si=-YdQAIxycwBEdpOo";
+}
+
+</script>
+
+</body>
+</html>
